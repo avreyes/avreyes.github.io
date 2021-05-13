@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sumana&display=swap');
+body {
+    margin: 0px;
+    padding: 20px;
+    background-color: #EBBF87;
+    text-align: right;
+}
+
+
+
+.navBar {
+    font-family: 'Sumana', serif;
+    width: 421px;
+    background-color: transparent;
+}
+
+
+
+.name {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 145px;
+}
+
+#firstName {
+    margin-right: 156px;
+    margin-bottom: -107px;
+    margin-top: -84px;
+}
