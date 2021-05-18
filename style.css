@@ -1,29 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sumana&display=swap');
 body {
-    margin: 0px;
-    padding: 20px;
-    background-color: #EBBF87;
+    background: url('./assets/Headerish4.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+    /* animation: 50s para infinite linear;
+    overflow-x: hidden; */
+    margin: 20px;
+    
+    background-color: #e9caa1;
     text-align: right;
 }
+/* @keyframes para {
+	100% {
+		background-position: 
+			-5px 100%;
+		}
+	} */
 
 
 
 .navBar {
     font-family: 'Sumana', serif;
-    width: 421px;
-    background-color: transparent;
+    font-size: 19px;
+    background-color: white;
+
 }
 
 
 
 .name {
     font-family: 'Abril Fatface', cursive;
-    font-size: 145px;
+    font-size: 12em;
+    letter-spacing: 10px;
+    padding: 58px;
+    
+
 }
 
 #firstName {
     margin-right: 156px;
     margin-bottom: -107px;
     margin-top: -84px;
+    
 }
+
+#lastName {
+    margin-top: 45px;
+}
+
+.subHead {
+    margin-top: -65px;
+    margin-right: 78px;
+    font-family: 'Sumana', serif;
+    font-size: 16px;
+}
+
+#aboutHeader {
+    margin-top: 25rem;
+    margin-bottom: -9rem;
+    margin-left: 5rem;
+    position: relative;
+    font-size: 8em;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 4px;
+
+}
+
+section {
+    margin-top: 12em;
+    background-color: rgba(255, 255, 255, 0.63);
+    width: 50em;
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 21em;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+   
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: lighter;
+    text-align: center;
+
+    
+}
+
+#aboutMe {
+    font-family: 'Sumana', serif;
+    text-align: left;
+    text-indent: 2em;
+}
+
+#pic {
+    height: 27em;
+    width: 24em;
+    margin-left: 69em;
+    margin-top: -40em;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 3em;
+    border-radius: 1em;
+}
+
