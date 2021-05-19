@@ -10,12 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Sumana&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Alyssa Reyes</title>
 </head>
 <body>
         <!-- HEADER -->
     <div class="header">
-      <div class="name">
+      <div class="name col-12">
         <div id="firstName">
             <p>Alyssa</p>
         </div>
@@ -23,7 +23,7 @@
             <p>Reyes</p>
         </div>
       </div>
-      <div class="subHead">
+      <div class="subHead col-12">
         <p>Current full time Web Development student at Eleven Fifty Academy.</p>
         <p>Part Time Sloth enthusiast.</p>
       </div>
@@ -38,13 +38,13 @@
                         <a class="nav-link active" aria-current="page" href="#firstName" style="color: black;">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#aboutHeader" style="color: black;">About</a>
+                        <a class="nav-link active" aria-current="page" href="#about" style="color: black;">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: black;">Portfolio</a>
+                        <a class="nav-link" href="#creature" style="color: black;">Portfolio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: black;">Contact</a>
+                        <a class="nav-link" href="#contact" style="color: black;">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -56,14 +56,14 @@
        
   <!-- CONTENT BREAK-->
   <br>
-  <br>
-  <br>
   <!-- ABOUT -->
-  <div id="aboutHeader">
+   <div class="container-fluid justify-content-center" id="about">
+   <div class="aboutHeader col-6">
     <p>
-      Introduction.
+      introduction.
     </p>
   </div>
+  <div class="col-6 col-md-4">
   <section>
     <h1>Hello.</h1>
     <h2>It's a pleasure to meet you.</h2>
@@ -73,23 +73,102 @@
     <h2>Thank you for taking a moment to get to know me.</h2>
   </section>
   <div id="pic">
-    <img src="./assets/MEDE6298.JPG" class="img-fluid rounded float-center" width="350px" height="450px">
+    <img src="./assets/MEDE6298.JPG" class="img-fluid rounded float-center" width="350px" height="250px">
   </div>
+  </div>
+  </div>
+  <!--CONTENT BREAK-->
   <br>
   <br>
   <br>
-  <!-- PROJECTS -->
-  <div class="thumbnail-contianer">
-    <div class="thumbnail">
-      
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!--BACKGROUND IMAGE 2-->
+<div class="container-fluid" id="background">
+  <!--PROJECTS-->
+  <div class="container-fluid justify-content-center" id="port">
+    <p>portfolio.</p>
+  </div>
+      <!--ROW ONE-->
+  <div class="d-flex justify-content-center" id="rowOne">
+    <div class="flex-items" id="static">
+      <a href="https://avreyes.github.io/staticLayout/" target="_blank">
+      <img src="./assets/huluThumbnail.jpg" alt="Hulu Static Layout" class="image" style="height: 13vw; width: 20vw; border-radius: 1vw;">
+      </a>
     </div>
-  </div>
-            <!-- SKILLS -->
-            <!-- RESUME -->
-            <!-- GITHUB, LINKEDIN, CODEPEN LINKS-->
-
-
-        <!-- FOOTER -->
     
+    <div class="flex-items" id="creature">
+      <a href="https://codepen.io/avreyes/pen/zYNXZZj?editors=1100" target="_blank">
+      <img src="./assets/codepen.jpg" alt="CSS Creature" class="image" style="height: 13vw; width: 20vw; border-radius: 1vw;">
+      </a>
+    </div>
+
+    <div class="flex-items" id="apiOne">
+      <a href="https://avreyes.github.io/studioGhibliApi/" target="_blank">
+      <img src="./assets/studioGhibliApi.jpg" alt="Studio Ghibli API" class="image" style="height: 13vw; width: 20vw; border-radius: 1vw;">
+      </a>
+    </div>
+ </div>
+ 
+      <!--ROW TWO-->
+ <div class="d-flex justify-content-center" id="rowTwo">
+  <div class="flex-items" id="apiTwo">
+    <a href="https://nasa-api-ee484.web.app" target="_blank">
+    <img src="./assets/apiTwo.jpg" alt="NASA Api" class="image" style="height: 13vw; width: 20vw; border-radius: 1vw;">
+    </a>
+  </div>
+
+  <div class="flex-items" id="blue">
+    <img src="./assets/blue.jpg" alt="Blue Badge" class="image" style="height: 13vw; width: 20vw; border-radius: 1vw;">
+  </div>
+
+  <div class="flex-items" id="red">
+    <img src="./assets/red.jpg" alt="Red Badge" class="image" style="height: 13vw; width: 20vw; border-radius: 1vw;">
+  </div>
+  </div>
+  <!-- CONTACT -->
+
+  <div class="container-fluid justify-content-center" id="contact">
+  <p>let's connect.</p>
+  </div>
+  <div class="d-flex justify-content-right" id="connect"> 
+    <div class="contactMe" id="contactForm">
+      <form action="https://formspree.io/f/xeqvavqp" method="POST" class="container-sm">
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Doe">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required name="_replyto">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message Here" required name="message"></textarea>
+          <button type="submit" class="btn btn-success" style="color: #000; border-color: transparent;">Thank you.</button>
+        </div>
+      </form>
+    </div>
+    
+    <!--SOCIALS-->
+    <div class="flex-items" id="gitHub">
+      <a href="https://github.com/avreyes" target="_blank">
+        <img src="./assets/GitHub-Mark-120px-plus.png" alt="GitHub" class="image">
+      </a>
+    </div>
+    <div class="flex-items" id="linkedIn">
+    <a href="https://linkedin.com/in/alyssa-reyes-b9b26a114" target="_blank">
+    <img src="./assets/LI-In-Bug.png" alt="LinkedIn" class="image" style="height: 10vw;">
+    </a>
+  </div>
+</div>
+<div class="footer">
+  <p>© 2021 Alyssa Reyes</p>
+</div>
+</div>
+  <!-- FOOTER -->
 </body>
 </html>

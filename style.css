@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sumana&display=swap');
+
+html {
+    padding: 0.5vw;
+}
+
 body {
     background: url('./assets/Headerish4.png');
-    background-size: 100%;
+    background-size: 100vw;
     background-repeat: no-repeat;
    
-    /* animation: 50s para infinite linear;
-    overflow-x: hidden; */
-    margin: 20px;
+    /* animation: 50s para infinite linear;*/
+    
+    overflow-x: hidden; 
+   
     
     background-color: #e9caa1;
-    text-align: right;
+    background-position: contain;
 }
 /* @keyframes para {
 	100% {
@@ -25,25 +31,25 @@ body {
     font-family: 'Sumana', serif;
     font-size: 19px;
     background-color: white;
-
 }
 
 
 
 .name {
     font-family: 'Abril Fatface', cursive;
-    font-size: 12em;
+    font-size: 11vw;
     letter-spacing: 10px;
     padding: 58px;
+    height: 20%;
+    text-align: right;
     
-
 }
 
 #firstName {
     margin-right: 156px;
     margin-bottom: -107px;
     margin-top: -84px;
-    
+      
 }
 
 #lastName {
@@ -54,15 +60,17 @@ body {
     margin-top: -65px;
     margin-right: 78px;
     font-family: 'Sumana', serif;
-    font-size: 16px;
+    font-size: 3vh;
+    text-align: right;
 }
 
-#aboutHeader {
-    margin-top: 25rem;
+.aboutHeader {
+    
+    margin-top: 15rem;
     margin-bottom: -9rem;
-    margin-left: 5rem;
+
     position: relative;
-    font-size: 8em;
+    font-size: 8vw;
     text-align: left;
     font-family: 'Abril Fatface', cursive;
     letter-spacing: 4px;
@@ -70,14 +78,16 @@ body {
 }
 
 section {
-    margin-top: 12em;
-    background-color: rgba(255, 255, 255, 0.63);
+    margin-top: 14vw;
+    background-color: rgba(255, 255, 255, 0.527);
     width: 50em;
     position: relative;
     padding: 20px;
     border-radius: 20px;
-    margin-left: 21em;
+    margin-left: 10vw;
 }
+
+
 
 h1 {
     text-align: left;
@@ -101,13 +111,149 @@ h2 {
 }
 
 #pic {
-    height: 27em;
-    width: 24em;
-    margin-left: 69em;
-    margin-top: -40em;
+    height: 25vw;
+    width: 23vw;
+    margin-left: 69vw;
+    margin-top: -42vw;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.63);
-    padding: 3em;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 2vw;
     border-radius: 1em;
 }
 
+/* SECOND BACKGROUND IMAGE */
+
+#background {
+    
+    background-image: url('./assets/Headerish2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* PORTFOLIO */
+#port {
+    margin: 5vw;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 8vw;
+    letter-spacing: 5px;
+}
+
+#rowOne {
+    margin-top: -5vw;
+}
+
+
+#static {
+   margin: 1vw;
+   padding: 2vw;
+   max-height: 25vw;
+   max-width: 25vw;
+   background-color: rgba(255, 255, 255, 0.527);
+   border-radius: 20px;
+}
+
+#creature {
+    margin: 1vw;
+   padding: 2vw;
+   max-height: 25vw;
+   max-width: 25vw;
+   background-color: rgba(255, 255, 255, 0.527);
+   border-radius: 20px;
+}
+
+#apiOne {
+   margin: 1vw;
+   padding: 2vw;
+   max-height: 25vw;
+   max-width: 25vw;
+   background-color: rgba(255, 255, 255, 0.527);
+   border-radius: 20px;
+}
+
+
+
+
+/* ROW TWO */
+#apiTwo {
+    margin: 1vw;
+    padding: 2vw;
+    max-height: 25vw;
+    max-width: 25vw;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20px;
+}
+
+#blue {
+    margin: 1vw;
+    padding: 2vw;
+    max-height: 25vw;
+    max-width: 25vw;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20px;
+}
+
+#red {
+    margin: 1vw;
+    padding: 2vw;
+    max-height: 25vw;
+    max-width: 25vw;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20px;
+ }
+
+ /* CONTACT */
+
+
+
+#contact {
+    margin-right: 5vw;
+    text-align: right;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 8vw;
+    letter-spacing: 3px;
+}
+
+#contactForm{
+    align-content: center;
+    height: 28vw;
+    width: 40vw;
+    background-color: rgba(255, 255, 255, 0.527);
+    font-family: 'Sumana', serif;
+    border-radius: 20px;
+    padding: 1vh;
+    margin-left: 11vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.btn {
+    margin-left: 25vw;
+    margin-top: .05vh;
+    transition-duration: 0.4s;
+    background-color: rgba(2, 99, 2, 0.514);
+    padding: 1px;
+    width: 12vw;
+
+}
+.btn:hover{
+    background-color: rgba(45, 179, 202, 0.514);
+}
+
+/* SOCIALS */
+#gitHub{
+    padding: 6vw;
+}
+#linkedIn{
+    padding: 6vw;
+}
+
+.footer {
+    font-family: 'Sumana', serif;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    text-align: center;
+}
